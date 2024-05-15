@@ -1,0 +1,77 @@
+<section class="meal-plan">
+  <div class="container">
+    <div class="meal-plan_inner">
+      <h2 class="title">Персональный план питания</h2>
+      <p class="text">
+        Важно уделять внимание не только физическим упражнениям, но и <br />
+        полноценному питанию. Заполните анкету и мы пришлем вам план <br />
+        питания на месяц с учетом ваших особенностей и образа жизни.
+      </p>
+      <form class="form">
+        <div class="inputs-top">
+          <div class="input-group">
+            <label class="label" for="name">Имя:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="input-group">
+            <label class="label" for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+        </div>
+        <div class="input-group">
+          <label class="label" for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="block-radio">
+          <p class="label">Ваша цель:</p>
+          <div class="block-radio_content">
+            <label class="input-wrapper" for="goal1">
+              <input
+                type="radio"
+                id="goal1"
+                name="goal"
+                value="goal1"
+                required
+                checked
+              />
+              <span class="radio-checkmark"></span>
+              <span class="label">Снижение веса</span>
+            </label>
+            <label class="input-wrapper" for="goal2">
+              <input
+                type="radio"
+                id="goal2"
+                name="goal"
+                value="goal2"
+                required
+              />
+              <span class="radio-checkmark"></span>
+              <span class="label">Набор массы</span>
+            </label>
+            <label class="input-wrapper" for="goal3">
+              <input
+                type="radio"
+                id="goal3"
+                name="goal"
+                value="goal3"
+                required
+              />
+              <span class="radio-checkmark"></span>
+              <span class="label">Другая цель</span>
+            </label>
+          </div>
+        </div>
+
+        <label class="personal-data" for="agreement">
+          <input type="checkbox" id="agreement" name="agreement" />
+          <div class="checkmark"></div>
+          <span class="label"
+            >Я согласен на обработку моих персональных данных</span
+          >
+        </label>
+        <button type="submit" class="blue-button">Продолжить</button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- СТИЛИ CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <a href="#" class="logo">
+            <svg width="104" height="22">
+              <use href="./assets/img/icons.svg#logo"></use>
+            </svg>
+          </a>
+          <nav class="header_nav">
+            <ul class="header_list">
+              <li class="header_list-item">
+                <a href="#">йога</a>
+              </li>
+              <li class="header_list-item">
+                <a href="#">мфр</a>
+              </li>
+              <li class="header_list-item">
+                <a href="#">растяжка</a>
+              </li>
+              <li class="header_list-item">
+                <a href="#">hitt</a>
+              </li>
+              <li class="header_list-item">
+                <a href="#">гайды</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header_icons">
+            <button class="icon">
+              <img
+                width="16px"
+                height="16px"
+                src="./assets/img/icon_search.svg"
+                alt="search"
+              />
+            </button>
+            <a href="#" class="icon">
+              <!-- <img src="./assets/img/home.svg" alt="" /> -->
+              <img
+                width="16px"
+                height="16px"
+                src="./assets/img/icon_cart.svg"
+                alt="cart"
+              />
+            </a>
+            <a href="#" class="icon">
+              <img
+                width="16px"
+                height="16px"
+                src="./assets/img/icon_home.svg"
+                alt="home"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero_inner">
+            <div class="hero-description">
+              <div>
+                <h1 class="name">Фитнес платформа онлайн-тренировок</h1>
+                <p class="text">
+                  Тренировки разного уровня сложности для любых целей:
+                  восстановление, снижение веса, набор мышечной массы и многое
+                  другое. Занимайтесь когда и где вам удобно.
+                </p>
+              </div>
+              <button class="blue-button">Выбрать курс</button>
+            </div>
+            <img src="./assets/img/1.png" alt="hero" />
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSE SELECTION -->
+      <section class="courses">
+        <div class="container">
+          <div class="courses_inner">
+            <h2>Выберите курс</h2>
+            <div class="courses_content">
+              <a href="#" class="course-card">
+                <img src="./assets/img/2.png" alt="йога" />
+                <h3 class="name">Йога</h3>
+              </a>
+              <a href="#" class="course-card">
+                <img src="./assets/img/3.png" alt="йога" />
+                <h3 class="name">Растяжка</h3>
+              </a>
+              <a href="#" class="course-card">
+                <img src="./assets/img/4.png" alt="йога" />
+                <h3 class="name">HIIT</h3>
+              </a>
+            </div>
+            <button class="blue-button">Смотреть все</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRY FREE -->
+      <section class="try-free">
+        <div class="container">
+          <div class="try-free_inner">
+            <div class="try-free_text">
+              <h3 class="name">Попробуйте бесплатно</h3>
+              <p class="description">
+                Смотрите и выполняйте первую тренировку любого курса бесплатно и
+                выбирайте то, что вам подходит больше всего.
+              </p>
+            </div>
+            <button class="blue-button">Попробовать бесплатно</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services">
+        <div class="container">
+          <div class="services_inner">
+            <div class="services-course">
+              <img class="course-img" src="./assets/img/6.jpg" alt="растяжка" />
+              <div class="course_description">
+                <span class="type-course">онлайн-курс</span>
+                <h3 class="name">Растяжка</h3>
+                <p class="description">
+                  Классическая растяжка на все тело на платформе Fitline.
+                  Занятия для спины, стоп, продольного и поперечного шпагата.
+                </p>
+                <div class="course_info">
+                  <div class="item rating">
+                    Высокий рейтинг
+                    <span>
+                      <img src="./assets/img/star.svg" alt="star" />
+                      5.0
+                    </span>
+                  </div>
+                  <div class="item date">
+                    <span>
+                      <img src="./assets/img/time.svg" alt="time" />
+                      8 недель
+                    </span>
+                    <span>
+                      <img src="./assets/img/calendar.svg" alt="calendar" />
+                      24 тренировки
+                    </span>
+                  </div>
+                  <div class="item price">2590 ₽</div>
+                  <button class="blue-button">Купить курс</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-services">
+              <ul class="about-services_list">
+                <li class="item active">тренеры</li>
+                <li class="item">оборудование</li>
+                <li class="item">отзывы</li>
+              </ul>
+              <div class="about-services_content">
+                <p class="content_description">
+                  Занятия на платформе проводят профессиональные тренеры,
+                  спортсмены, мастера спорта. Очень важно доверять тренеру,
+                  прислушиваться к нему, чтобы тренировка была эффективной и
+                  безопасной.
+                </p>
+                <div class="content_cards">
+                  <div class="content_cards-item">
+                    <!-- <div class="inner"> -->
+                    <img src="./assets/img/7.png" alt="Ирина Усольцева" />
+                    <div class="card-item_text">
+                      <h3 class="name">ирина усольцева</h3>
+                      <p class="job">Мастер спорта по гимнастике</p>
+                    </div>
+                    <!-- </div> -->
+                  </div>
+                  <div class="content_cards-item">
+                    <!-- <div class="inner"> -->
+                    <img src="./assets/img/8.png" alt="Елена Артемьева" />
+                    <div class="card-item_text">
+                      <h3 class="name">елена артемьева</h3>
+                      <p class="job">Артистка балета</p>
+                    </div>
+                    <!-- </div> -->
+                  </div>
+                  <div class="content_cards-item">
+                    <!-- <div class="inner"> -->
+                    <img src="./assets/img/9.png" alt="Елена Свиридова" />
+                    <div class="card-item_text">
+                      <h3 class="name">елена свиридова</h3>
+                      <p class="job">Чемпионка России по акробатике</p>
+                    </div>
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about">
+        <div class="container">
+          <div class="about_inner">
+            <div class="about_description">
+              <h2 class="title">О платформе Fitline</h2>
+              <div class="about_description-text">
+                <p class="text">
+                  Fitline – это платформа онлайн-тренировок от лучших <br />
+                  тренеров России. Большой выбор программ и разный <br />
+                  уровень сложности в каждой из них позволят вам <br />
+                  подобрать ту физическую нагрузку, которая необходима.
+                </p>
+                <p class="text">
+                  На платформе есть тренировки для разных целей: <br />
+                  снижение веса, набор мышечной массы, восстановление, <br />
+                  развитие гибкости, поддержка общего тонуса организма.
+                </p>
+              </div>
+              <button class="blue-button">Узнать больше</button>
+            </div>
+            <img src="./assets/img/10.jpg" alt="О платформе Fitline" />
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="works">
+        <div class="container">
+          <div class="works_inner">
+            <h3 class="title">Как это работает</h3>
+            <div class="works_wrapper">
+              <div class="works_card">
+                <div class="works_card-step">01</div>
+                <div class="works_card-description">
+                  <h4>Выбор программы</h4>
+                  <p>
+                    Выберите программу, которая вам нравится или заполните
+                    анкету на сайте, чтобы мы <br />
+                    смогли подобрать для вас наиболее подходящую тренировку.
+                  </p>
+                </div>
+              </div>
+              <div class="works_card">
+                <div class="works_card-step">02</div>
+                <div class="works_card-description">
+                  <h4>Личный кабинет</h4>
+                  <p>
+                    После оплаты тренировки появятся в личном кабинете. Каждая
+                    тренировка <br />
+                    открывается после выполненния предыдущей, чтобы распределить
+                    нагрузку.
+                  </p>
+                </div>
+              </div>
+              <div class="works_card">
+                <div class="works_card-step">03</div>
+                <div class="works_card-description">
+                  <h4>Правильный темп</h4>
+                  <p>
+                    Включите видео-тренировку <br />
+                    и занимайтесь когда и где вам удобно. В тренировку включен
+                    таймер, чтобы вы могли следить за темпом и делать паузы.
+                  </p>
+                </div>
+              </div>
+              <div class="works_card">
+                <div class="works_card-step">04</div>
+                <div class="works_card-description">
+                  <h4>Поддержка тренера</h4>
+                  <p>
+                    Каждое занятие <br />
+                    сопровождается инструкцией тренера по технике выполнения
+                    всех упражнений. Прислушивайтесь к нему, чтобы тренировка
+                    была безопасной.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEAL PLAN FORM -->
+      <section class="meal-plan">
+        <div class="container">
+          <div class="meal-plan_inner">
+            <h2 class="title">Персональный план питания</h2>
+            <p class="text">
+              Важно уделять внимание не только физическим упражнениям, но и
+              <br />
+              полноценному питанию. Заполните анкету и мы пришлем вам план
+              <br />
+              питания на месяц с учетом ваших особенностей и образа жизни.
+            </p>
+            <form class="form">
+              <div class="inputs-top">
+                <div class="input-group">
+                  <label class="label" for="name">Имя:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="input-group">
+                  <label class="label" for="phone">Телефон:</label>
+                  <input type="tel" id="phone" name="phone" required />
+                </div>
+              </div>
+              <div class="input-group">
+                <label class="label" for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="block-radio">
+                <p class="label">Ваша цель:</p>
+                <div class="block-radio_content">
+                  <label class="input-wrapper" for="goal1">
+                    <input
+                      type="radio"
+                      id="goal1"
+                      name="goal"
+                      value="goal1"
+                      required
+                      checked
+                    />
+                    <span class="radio-checkmark"></span>
+                    <span class="label">Снижение веса</span>
+                  </label>
+                  <label class="input-wrapper" for="goal2">
+                    <input
+                      type="radio"
+                      id="goal2"
+                      name="goal"
+                      value="goal2"
+                      required
+                    />
+                    <span class="radio-checkmark"></span>
+                    <span class="label">Набор массы</span>
+                  </label>
+                  <label class="input-wrapper" for="goal3">
+                    <input
+                      type="radio"
+                      id="goal3"
+                      name="goal"
+                      value="goal3"
+                      required
+                    />
+                    <span class="radio-checkmark"></span>
+                    <span class="label">Другая цель</span>
+                  </label>
+                </div>
+              </div>
+
+              <label class="personal-data" for="agreement">
+                <input type="checkbox" id="agreement" name="agreement" />
+                <div class="checkmark"></div>
+                <span class="label"
+                  >Я согласен на обработку моих персональных данных</span
+                >
+              </label>
+              <button type="submit" class="blue-button">Продолжить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <p>Fitline @2021 Все права защищены</p>
+          <ul class="social-media">
+            <li class="item">
+              <a href="#">
+                <img src="./assets/img/facebook.svg" alt="facebook" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <img src="./assets/img/vk.svg" alt="vk" />
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <img src="./assets/img/instagram.svg" alt="instagramm" />
+              </a>
+            </li>
+          </ul>
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
